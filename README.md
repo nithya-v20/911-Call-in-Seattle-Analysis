@@ -1,24 +1,27 @@
-# Health-Insurance-Cross-Sell-Prediction
+# 911-Call-in-Seattle-Analysis
 
-# Overview
-The objective of this project is to build a machine learning model that can accurately predict whether a customer will be interested in purchasing an additional insurance policy (cross-selling) based on their demographic, vehicle, and policy information. This information can help the insurance company to tailor their marketing and sales strategies to target customers who are more likely to purchase additional insurance policies.
+This is an R Markdown file that analyzes 911 call data in Seattle.
 
-# Dataset
-The dataset used in this project is the Insurance Cross Sell Prediction dataset from Kaggle. The dataset contains over 381109 customers, of which only 12% have purchased additional insurance policies. The dataset includes features such as the customer's age, gender, driving license, vehicle age, and policy details.
+## Description
+The R Markdown file uses exploratory data analysis techniques to analyze 911 call data in Seattle. The data includes information on call type, location, and time of day. The file includes visualizations of the data and an analysis of call trends over time.
 
-# Data Preprocessing
-Before building the machine learning model, we need to preprocess the data to prepare it for training. This includes:
+## Installation
+To run the R Markdown file, you will need to have R and RStudio installed on your local machine. You can download R from the official website: https://www.r-project.org/ and RStudio from: https://www.rstudio.com/products/rstudio/download/
 
-Handling missing values and outliers, if any
-Encoding categorical variables using techniques such as one-hot encoding or label encoding.
-Addressing class imbalance by oversampling the minority class (fraudulent transactions) Model Selection and Training.
-Splitting the data into training and testing sets.
+Once R and RStudio are installed, you can download the R Markdown file from this GitHub repository and open it in RStudio.
 
-# Model Selection and Training
-For this project, we will compare the performance of several machine learning models, including logistic regression, decision tree, random forest, and XGBoost. We will train each model on the preprocessed data and evaluate its performance using metrics such as accuracy, precision, recall, and F1 score.
+You will also need to have the following R packages installed:
 
-# Results
-Based on our evaluation metrics, we will select the best performing model and fine-tune its hyperparameters to further improve its performance. We will also visualize the results using various plots and charts to gain insights into the model's predictions.
+tidyverse
+ggplot2
+lubridate
+You can install these packages using the following commands in R:
 
-# Conclusion
-In conclusion, this project aims to build a machine learning model that can accurately predict whether a customer will purchase an additional insurance policy based on their demographic, vehicle, and policy information. By identifying potential cross-selling opportunities, insurance companies can tailor their marketing and sales strategies to target customers who are more likely to purchase additional insurance policies, which can result in increased revenue and customer satisfaction.
+
+## Usage
+To use the R Markdown file, open it in RStudio and click the "Knit" button to run the code and generate the analysis report. The file includes detailed comments and explanations for each step of the process.
+
+You can also modify the R Markdown file to use your own data or adjust the analysis parameters to explore different trends in the data.
+
+## Contributing
+This repository is open for contributions. If you find any issues or have any suggestions, feel free to create a pull request or open an issue.
