@@ -1,6 +1,6 @@
 ---
 title: "IE6600_Sec05_Group#04_Hackathon"
-author: "Abhishek Hemantkumar Taware, Vidyun Akila Sundhara Raaman"
+author: "Nithya Rani Vuddagiri"
 date: "08/10/2021"
 output:
   html_document:
